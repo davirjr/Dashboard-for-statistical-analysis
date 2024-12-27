@@ -21,7 +21,7 @@ Kruskal-Wallis tests can be shown by clicking the side button, and each variable
 # Load the data from a CSV. We're caching this so it doesn't reload every time the app reruns (e.g. if the user interacts with the widgets).
 @st.cache_data
 def load_data():
-    df = pd.read_csv("/workspaces/Dashboard-for-statistical-analysis/Data/food_orders_processed.csv")
+    df = pd.read_csv("food_orders_processed.csv")
     return df
 
 df = load_data()
