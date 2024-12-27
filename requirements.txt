@@ -1,1 +1,6 @@
 streamlit
+altair
+pandas
+matplotlib
+numpy
+scipy
